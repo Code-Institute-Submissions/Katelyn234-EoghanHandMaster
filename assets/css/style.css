@@ -1,0 +1,84 @@
+/*-----------------------Fonts&UsefulStyles*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+  }
+  
+  body {
+    padding: 1em;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-family: sans-serif;
+    color: #777777;
+  }
+  .background-image-homepage {
+    background: url(/assets/img/eoghanhandbkimg.jpg) center center / cover no-repeat fixed;
+    background-position: bottom, right;  
+    width: 100%;
+  }
+  
+  .background-image-contact {
+    background: url(/assets/img/galleryimage7.JPG) center center / cover no-repeat fixed;
+    background-position: top, left;  
+    width: 100%;
+  }
+
+  .active {
+    border-bottom: 1px solid #777777;
+  }
+  
+  .font-size {
+    font-size: 150%;
+  }
+/*-----------------------Header*/
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  h2{
+    font-family: PT Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    }
+  #logo {
+    float: left;
+    font-size: 200%;
+    padding-left: 5%;
+    color: #777777;
+    padding-top: 20px;
+  }
+  #menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+  }
+  
+  #logo, #menu {
+    line-height: 75px;
+  }
+  
+  #menu li {
+    float: right;
+    margin: 20px;
+    margin-right: 100px;
+  }
+  
+  #menu a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #menu a:hover {
+  border-bottom: 1px solid #777777;
+  }
+  
+/*-----------------------Homepage*/
