@@ -48,3 +48,12 @@ The decision to present the Lighting first was made as this is the larger revenu
 -Highlight and allow autoplay of directors showreel on arrival to the site (when more established)
 
 
+<h2>Time Restricted Improvements</h2>
+<p>Due to recent illness this project was put together while still learning and realising available options to improve the site</p>
+-Google Fonts not working, reverting to back up 
+-remove iframes for videos as they wouldnt be so heavy loading the page 
+-Remove bottom scroll from desktop 
+-better positioning solution for hte elements of about-box
+-Labels for videos
+
+
