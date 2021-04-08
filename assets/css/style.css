@@ -14,7 +14,8 @@
     font-family: sans-serif;
     color: #777777;
   }
-  .background-image-homepage {
+  .background-image-homepage 
+  {
     background: url(/assets/img/eoghanhandbkimg.jpg) center center / cover no-repeat fixed;
     background-position: bottom, right;  
     width: 100%;
@@ -82,3 +83,130 @@ header {
   }
   
 /*-----------------------Homepage*/
+
+/*-----------------------Gallery*/
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0px;
+}
+
+#photo img{
+  width: 100%;
+}
+
+/*-----------------------Contact*/
+#message {
+  height: 200px;
+  width: 100%;
+}
+
+.contact {
+  margin-top: 25px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.9);
+  max-width: 500px;
+  position: absolute;
+  padding: 30px;
+}
+
+.contact-left {
+  left: 10%;
+}
+
+.contact-right{
+  right: 10%;
+}
+
+.contact h2{
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+.contact i {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 200%;
+  right: 200px;
+}
+.button {
+ margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align:center;
+  font-size: 100%;
+  background-color: white;
+  color: #777777;
+  width: 80%;
+  display: block;
+}
+.text-input{
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+    
+}
+
+.text-input:hover {
+  border-color: #3293a8;
+}
+
+.send-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align:center;
+  font-size: 100%;
+  background-color: white;
+  color: #777777;
+  display: block;
+}
+    
+.send-button:hover {
+  background-color: #3293a8;
+  color: white;
+}/*changed the button to invert colour instead of border on hover*/
+
+.fas fa-download:hover {
+  background-color: #3293a8;
+  color: white;
+}/* --NOT WORKING-- */
+
+
+   
+/*-----------------------Footer*/
+
+footer {
+  height: 60px;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.social-networks {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+footer i{
+ font-size: 160%;
+ padding: 0;
+ color: #777777;
+ margin: 1%;
+}
+
+footer p {
+ color: #777777;
+ text-align: center;
+}
